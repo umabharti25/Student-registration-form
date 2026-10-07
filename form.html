@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Student Registration</title>
+</head>
+<body>
+   <h1>Student Regestration form</h1>
+
+   <form action="/regester" method="post">
+
+   <label for="name">Full Name:</label><br>
+
+   <input
+    type="text"
+    id="name"
+    name="name"
+    placeholder="enter your full name"
+    required>
+   <br><br>
+
+   <label for="email">Email:</label><br>
+
+   <input
+    type="email"
+    id="email"
+    placeholder="enter your email"
+    required>
+   <br><br>
+
+   <label for="password">Password</label><br>
+   
+   <input
+    type="password"
+    id="password"
+    name="password"
+    required>
+   <br><br>
+ 
+   <label for="dob">Date Of Birth</label>
+  
+   <input
+    type="dob"
+    id="dob"
+    name="Date of birth">
+  <br><br>
+
+  <p>Gender:</p>
+
+  <input
+   type="radio"
+    id="male"
+   name="gender"
+   value="male">
+
+  <label for="male">Male</label>
+  
+  <input 
+   type="radio"
+   id="female"
+   name="gender"
+   value="male">
+  <label for="female">Female</label>
+
+  <input
+   type="radio"
+   id="other"
+   name="gender"
+   value="male">
+ 
+  <label for="other">Other</label>
+
+  <p>Skills:</p>
+  <input
+   type="checkbox"
+    id="html"
+   name="skills"
+   value="html"
+
+  <label for="html">html</label>
+   
+  <input
+   type="checkbox"
+   id="Css"
+   name="skills"
+   value="Css"
+
+   <label for="Css">Css</label>
+
+   <input
+    type="checkbox"
+    id="Javascript"
+    name="skills"
+    value="Javascript"
+  
+   <label for="Javascript">Javascript</label>
+
+    <br><br>
+
+   <label for="course">Course:</label>
+
+   <select id="course" name course">
+     
+        <option value="bca">BCA</option>
+        <option value="bba">BBA</option>
+        <option value="mca">MCA</option>
+   </select>
+
+   <br><br>
+
+   <label for="address">Address:</label><br>
+
+   <textarea
+     id="address"
+     name="address"
+     row="5"
+     cols="40"
+   
+   <br><br>
+   </textarea>
+  
+     <button type="submit">
+         Resister
+     </button>
+    
+     <button type="reset">
+        Reset
+     </button>
+     </form>
+</body>
+</html>
